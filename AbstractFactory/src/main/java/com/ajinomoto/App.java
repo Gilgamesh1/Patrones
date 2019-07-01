@@ -1,8 +1,8 @@
 package com.ajinomoto;
 
-import com.ajinomoto.Fabrica.Cliente;
-import com.ajinomoto.Fabrica.ComponentesAzules;
-import com.ajinomoto.Fabrica.ComponentesRojos;
+import com.ajinomoto.fabrica.Cliente;
+import com.ajinomoto.fabrica.ComponentesAzules;
+import com.ajinomoto.fabrica.ComponentesRojos;
 
 /**
  * Hello world!
