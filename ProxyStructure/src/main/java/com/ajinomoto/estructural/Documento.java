@@ -6,7 +6,9 @@ public class Documento {
     private ImagenProxy imgProxy;
 
     public Documento(String nombreDoc) {
-        this.nombreDoc = nombreDoc;
+        this.setNombreDoc(nombreDoc);
+        this.cargarContenido();
+        this.mostrar();
     }
 
     public String getNombreDoc() {
